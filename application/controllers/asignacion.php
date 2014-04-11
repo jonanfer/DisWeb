@@ -18,17 +18,6 @@ class Asignacion extends CI_Controller {
 	}
 
 	/*===========================================*/
-	/*Function iniciar session*/
-	/*===========================================*/
-	public function index()
-	{
-		$data['lasig'] = $this->asigna_mod->lstdisAsig();
-		$data['lfin'] = $this->asigna_mod->lstdisFin();
-		$data['lu'] = $this->asigna_mod->lstSol();
-		$this->load->view('disenador/disenos', $data);
-    }
-
-	/*===========================================*/
 	/*Function Add*/
 	/*===========================================*/
 	public function asigna($id)
@@ -56,16 +45,6 @@ class Asignacion extends CI_Controller {
 		$data['asigna'] = $id;
 		$data['lstd'] = $this->user_mod->lstDise($id);
 		$this->load->view('empleado/addAsigna', $data);
-	}
-
-	/*===========================================*/
-	/*Function view solicitud*/
-	/*===========================================*/
-
-	public function lstDise($id)
-	{
-		$data['lu'] = $this->asigna_mod->lst($id);
-		$this->load->view('disenador/viewAsignacion', $data);
 	}
 
 	/*===========================================*/

@@ -80,8 +80,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="<?php echo base_url(); ?>user/disweb">Disweb</a></li>
-        <li><a href="<?php echo base_url(); ?>solicitud">Solicitudes</a></li>
-        <li><a href="<?php echo base_url(); ?>adelantos/DisAdel">Adelantos</a></li>
+        <li><a href="<?php echo base_url(); ?>user/solicitud">Solicitudes</a></li>
+        <li><a href="<?php echo base_url(); ?>user/DisAdel">Adelantos</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="<?php echo base_url(); ?>login/close">Cerrar Sesion</a></li>

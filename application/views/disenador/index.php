@@ -71,7 +71,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="<?php echo base_url(); ?>disenador/disweb">Disweb</a></li>
-        <li><a href="<?php echo base_url(); ?>asignacion">Diseños</a></li>
+        <li><a href="<?php echo base_url(); ?>disenador/disenos">Diseños</a></li>
         <li><a href="<?php echo base_url(); ?>adelantos">Adelantos</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">

@@ -10,7 +10,7 @@
     <title>Document</title>
     <style>
       body{
-            background: url(public/imgs/home.png) center;
+            background: url(../public/imgs/home.png) center;
         }
         .content{
             width: 100%;
@@ -36,7 +36,7 @@
 <div class="content">
     <!---->
     <div class="panel panel-default">
-      <img src="public/imgs/encabezado3.fw.png" alt="..." class="img-thumbnail">
+      <img src="../public/imgs/encabezado3.fw.png" alt="..." class="img-thumbnail">
 
 <nav class="navbar navbar-inverse" role="navigation">
   <div class="container-fluid">
@@ -55,8 +55,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="<?php echo base_url(); ?>user/disweb">Disweb</a></li>
-        <li><a href="<?php echo base_url(); ?>solicitud">Solicitudes</a></li>
-        <li><a href="<?php echo base_url(); ?>adelantos/DisAdel">Adelantos</a></li>
+        <li><a href="<?php echo base_url(); ?>user/solicitud">Solicitudes</a></li>
+        <li><a href="<?php echo base_url(); ?>user/DisAdel">Adelantos</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="<?php echo base_url(); ?>login/close">Cerrar Sesion</a></li>
@@ -91,7 +91,7 @@
 
 <h1>Datos de Solicitud</h1>
 
-<a href="<?php echo base_url(); ?>solicitud/add" class="button large success">Adicionar Solicitud</a><br><br>
+<a href="<?php echo base_url(); ?>user/add" class="button large success">Adicionar Solicitud</a><br><br>
 
       <ul class="nav nav-pills">
         <li class="active"><a href="#tablaDiseWeb" data-toggle="tab">Diseños Web</a></li>

@@ -402,7 +402,7 @@
 
 			if ($res == true) {
 				$id_us = $(this).attr('data-id');
-				window.location.replace('<?php echo base_url(); ?>user/del/'+$id_us+'');
+				window.location.replace('<?php echo base_url(); ?>admin/del/'+$id_us+'');
 			}
 		});
 	});

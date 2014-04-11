@@ -12,7 +12,7 @@ class Adelantos extends CI_Controller {
 		$this->load->model('solicitud_mod');
 		$this->upload_i   = "./public/images/";
 
-		if ($this->session->userdata('rol') != 'Diseñador' || $this->session->userdata('rol') != 'Usuario') {
+		if ($this->session->userdata('rol') != 'Diseñador'){
 			redirect('/', 'refresh');	
 		}
 		$this->removeCache();
@@ -28,11 +28,11 @@ class Adelantos extends CI_Controller {
 		$this->load->view('disenador/lstAdelantos', $data);
     }
 
-    public function DisAdel()
+    /*public function DisAdel()
 	{
 		$data['lu'] = $this->adel_mod->lstAdelUs();
 		$this->load->view('user/listAdelUser', $data);
-    }
+    }*/
 
 	/*===========================================*/
 	/*Function Add*/

@@ -18,7 +18,7 @@
     <style>
         body
         {
-            background: url(public/imgs/home.png) center;
+            background: url(../public/imgs/home.png) center;
         }
         .content{
             width: 100%;
@@ -49,7 +49,7 @@
 <div class="content">
     <!---->
     <div class="panel panel-default">
-      <img src="public/imgs/encabezado3.fw.png" alt="..." class="img-thumbnail">
+      <img src="../public/imgs/encabezado3.fw.png" alt="..." class="img-thumbnail">
 
 <nav class="navbar navbar-inverse" role="navigation">
   <div class="container-fluid">
@@ -68,7 +68,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="<?php echo base_url(); ?>disenador/disweb">Disweb</a></li>
-        <li><a href="<?php echo base_url(); ?>asignacion">Diseños</a></li>
+        <li><a href="<?php echo base_url(); ?>disenador/disenos">Diseños</a></li>
         <li><a href="<?php echo base_url(); ?>adelantos">Adelantos</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">

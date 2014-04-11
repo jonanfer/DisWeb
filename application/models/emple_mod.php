@@ -77,7 +77,8 @@ class Emple_mod extends CI_Model{
       		echo "<h4>Congratulations!</h4>";
       		echo "<p>Usuario Modificado con Exito!!!</p>";
       		echo "<p>";
-      		echo "<button type='button' id='alert' class='btn btn-default'>Aceptar</button>";
+      		echo "<a href='http://localhost/DisWeb/empleado' class='button success'  style='text-decoration: none;'>Aceptar</a>";
+      		//echo "<button type='button' id='alert' class='btn btn-default'>Aceptar</button>";
       		//echo 'window.location.replace("'.base_url().'");';
       		echo "</p>";
     		echo "</div>";
